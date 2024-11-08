@@ -1,6 +1,7 @@
 # Change Logs
 
-## [1.0.0] - 2024-05-06:
+## [1.0.0] - 2024-05-06
+
 - Initial release
 - Refactor process_tree_python_2.py to process_tree_python3.py:
   - Key Changes and Enhancements:
@@ -11,3 +12,11 @@
     Function Names: Changed psaxo to get_process_info and hieraPrint to print_hierarchy to reflect their purposes more clearly.
     Variable Names: Renamed pidpool to processes for clarity, and cmd to command to avoid abbreviation. Similarly, changed ppid to parent_pid, pppid to grandparent_pid, and pname to process_name.
     Structure: Revised some of the in-line comments and structure for better clarity.
+
+## [1.0.1] - 2024-11-08
+
+- Added extract_pdf module:
+  - Options to extract pdf content to a markdown file
+  - Extract images from a pdf documents
+  - Batch process pdf files
+  - Specify input and output directories
