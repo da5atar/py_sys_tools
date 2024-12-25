@@ -1,3 +1,11 @@
-
+# Python
 *.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Virtualenv
+.venv
+
+# Mac
 .DS_Store
